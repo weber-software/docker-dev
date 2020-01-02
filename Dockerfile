@@ -1,3 +1,3 @@
 FROM alpine
 
-RUN apk add docker make git
+RUN apk add docker-cli make git openssh-client
